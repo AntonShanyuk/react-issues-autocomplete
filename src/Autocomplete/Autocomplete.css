@@ -1,0 +1,60 @@
+.autocomplete {
+    position: relative;
+}
+
+.dropdown, .error, .loading {
+    position: absolute;
+    background: white;
+    width: 100%;
+}
+
+.error, .loading {
+    padding: 4px;
+}
+
+.input {
+    width: 100%;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.loading {
+    font-size: 12px;
+}
+
+.dropdown {
+    margin-top: 2px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 4px 4px 2px gray;
+}
+
+.issue {
+    padding: 8px 12px;
+    font-size: 14px;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+.issue:nth-of-type(odd) {
+    background-color: #efefef;
+}
+
+.issue.selected {
+    background-color: #dadada;
+}
+
+.hr:last-child {
+    display: none;
+}
+
+.issueTitle {
+    color: black;
+    text-decoration: none;
+}
+
+.issueLabel, .issueTitle {
+    padding-right: 4px;
+}
